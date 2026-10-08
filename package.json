@@ -1,0 +1,28 @@
+{
+  "name": "jarvis-mobile-hud",
+  "version": "1.0.0",
+  "description": "J.A.R.V.I.S mobile AI assistant with voice, Obsidian memory and research integrations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "setup": "chmod +x install.sh && ./install.sh",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "jarvis",
+    "ai",
+    "voice",
+    "obsidian",
+    "mobile",
+    "hud"
+  ],
+  "author": "Ryzer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
